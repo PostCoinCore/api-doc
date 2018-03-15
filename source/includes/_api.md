@@ -474,3 +474,26 @@ account – привязать публичный ключ к указанном
 ВАЖНО: для разблокировки необходимо повторно вызывать команду walletpassphrase
 </aside>
 
+## walletpassphrase                    
+
+разблокировать клиент для проведения действий без ввода пароля (сохраняет с памяти клиента пароль на время, указанное в timeout)
+
+`walletpassphrase <passphrase> <timeout> [stakingonly]`
+
+- passphrase – пароль 
+- timeout – время разблокировки, в секундах 
+- mintonly – флаг, указывающий на полную разблокировку клиента (false или отсутствие значения) или на разблокировку только для PoS-майнинга (true)
+
+## walletpassphrasechange                    
+
+поменять пароль блокировки клиента
+
+`walletpassphrasechange <oldpassphrase> <newpassphrase>`
+
+- oldpassphrase – старый пароль 
+- newpassphrase – новый пароль
+
+<aside class="info">
+ВАЖНО: после смены пароля разблокировку командой walletpassphrase необходимо выполнить заново
+</aside>
+
