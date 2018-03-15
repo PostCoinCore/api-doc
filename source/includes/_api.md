@@ -69,3 +69,11 @@
 получить имя записи, установленного для указанного адреса
 
 `getaccount <PostCoinaddress>`
+
+## getaccountaddress     
+
+получить адрес, идентифицируемый указанным именем
+
+`getaccountaddress <account>`
+
+
