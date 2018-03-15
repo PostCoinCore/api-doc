@@ -23,13 +23,13 @@
 
 minconf минимальное количество подтверждений для транзакций, целое число >=0
 
-## Specification
+## Спецификация
 
-- Mining: PoS
-- Ticker: POST
-- Block Time: 60 sec
-- Minimum Stake Age: 12 hours
-- Maximum Stake Age: 14 days
-- Stake Rate: 2% Fixed
-- Initial Supply: 30.000.000 POST
-- Supply after burning the leftover coins from Free Distribution: ~15.081.003 POST
+- Алгоритм майнинга: POS
+- Тикер: POST
+- Время блока: 60 sec
+- Минимальный период созревания: 12 hours
+- Максимальный период созревания: 14 days
+- Ставка: 2%/фиксировано
+Первоначальное количество монет: 30.000.000 POST
+Оставшееся количество монет после сжигания: ~15.081.003 POST
