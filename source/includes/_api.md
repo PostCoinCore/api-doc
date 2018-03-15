@@ -355,3 +355,19 @@ account – привязать публичный ключ к указанном
 указать сумму, которая не будет участвовать в *PoS* майнинге при его активности, что позволяет всегда иметь неблокируемые средства в клиенте для траты
 
 `reservebalance [<reserve> [amount]]`
+
+## sendalert                    
+
+отправка сообщения в сеть
+
+`sendalert <message> <privatekey> <minver> <maxver> <priority> <id> [cancelupto]`
+
+## sendfrom                    
+
+отправить средства с указанного имени (адреса выбираются клиентом) на адрес
+
+`sendfrom <fromaccount> <toPostCoinaddress> <amount> [minconf=1] [comment] [comment-to]`
+
+- fromaccount – имя-идентификатор, откуда будут браться средства 
+- tonovacoinaddress – адрес получателя 
+- amount – отправляемая сумма ВАЖНО: значение суммы дробное и округляется до 0.0001
