@@ -82,5 +82,10 @@
 
 `getaddressesbyaccount <account>`
 
+## getbalance     
 
+получить баланс по имеющимся в wallet.dat адресам
 
+`getbalance [account] [minconf=1`
+
+- account – фильтр по адресу. 
