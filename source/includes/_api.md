@@ -167,3 +167,11 @@
 `getnewaddress [account]`
 
 - account – привязать адрес к указанному имени
+
+## getnewpubkey      
+
+создать новый публичный ключ в клиенте 
+
+`getnewpubkey [account]`
+
+account – привязать публичный ключ к указанному имени
