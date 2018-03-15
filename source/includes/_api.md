@@ -188,3 +188,10 @@ account – привязать публичный ключ к указанном
 
 `getrawmempool`
 
+## getrawtransaction        
+
+вывести транзакцию по её хэшу
+
+`getrawtransaction <txid> [verbose=0]`
+
+- verbose – определяет как её выводить: 0 для вывода в RAW (HEX) формате (по-умолчанию) 1 для вывода в JSON формате
