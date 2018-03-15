@@ -129,3 +129,15 @@
 вывести данные, необходимые для генерации нового блока
 
 `getblocktemplate [params]`
+
+## getcheckpoint 
+
+вывести данные о последнем чекпоинте (контрольной точке)
+
+`getcheckpoint`
+
+## getconnectioncount  
+
+вывести количество активных подключений клиента в сети
+
+`getconnectioncount `
