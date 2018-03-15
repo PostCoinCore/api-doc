@@ -289,3 +289,9 @@ account – привязать публичный ключ к указанном
 суммы полученных средств сгрупированные по адресам
 
 `listreceivedbyaddress [minconf=1] [includeempty=false]`
+
+## listsinceblock                    
+
+вывести проведённые клиентом транзакции (начиная с указанного блока, если указан хэш блока)
+
+`listsinceblock [blockhash] [target-confirmations]`
