@@ -13,9 +13,7 @@ toc_footers:
 
 includes:
   - introduction
-  - accounts
-  - blocks
-  - transactions
+  - api
 
 search: true
 ---
