@@ -76,4 +76,11 @@
 
 `getaccountaddress <account>`
 
+## getaddressesbyaccount     
+
+вывести весь список адресов, идентифицируемый указанным именем
+
+`getaddressesbyaccount <account>`
+
+
 
