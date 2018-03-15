@@ -8,9 +8,15 @@ We have language bindings in Shell, HTTP!
 You can view code examples in the dark area to the right, 
 and you can switch the programming language of the examples with the tabs in the top right.
 
-
 To connect to the api, use the link to your node: <code>http://127.0.0.1:<rpc_port></code>
 
+Список параметров, используемых в командной строке клиента, можно вывести используя команду PostCoind help
+
+Оригинальное описание каждого параметра можно получить командой PostCoind help <параметр>
+
+В консоли GUI-клиента для этого используется команда help и help <параметр> соответственно.
+
+Общие положения и переменные < > обязательное поле с сохранением пунктуации [ ] необязательное поле | разделитель, используемый для указания команды на выбор account, label имя для адреса/адресов в клиенте, указываемое пользователем для упрощения идентификации minconf минимальное количество подтверждений для транзакций, целое число >=0
 
 ## Specification
 
