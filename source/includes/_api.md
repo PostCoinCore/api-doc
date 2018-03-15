@@ -214,3 +214,55 @@ account – привязать публичный ключ к указанном
 
 `getstakinginfo`
 
+## getsubsidy           
+
+вывести награду согласно запрашиваемого таргета
+
+`getsubsidy [nTarget]`
+
+## gettransaction            
+
+вывести транзакцию по её хэшу в JSON формате
+
+`gettransaction <txid>`
+
+## getwork             
+
+получить данные для майнинга
+
+`getwork [data]`
+
+## getworkex              
+
+получить расширенные данные для майнинга
+
+`getworkex [data, coinbase]`
+
+## help               
+
+вывести помощь по командам, а если указана команда, то расширенная информация по ней
+
+`help [command]`
+
+## importprivkey                
+
+импортировать (зарегистрировать) в клиенте адрес по его приватному ключу для последующего проведения операций со средствами
+
+`importprivkey <PostCoinprivkey> [label]`
+
+## importwallet                 
+
+импортировать все данные, находящиеся в другом файле со структурой wallet.dat
+
+`importwallet <filename>`
+
+## keypoolrefill                  
+
+перезаполнить пул предварительно сгенерённых адресов new-size – новый размер пула (по умолчанию 100)
+
+`keypoolrefill [new-size]`
+
+<aside class="warning">
+ВАЖНО: после регенерации необходимо создать новую резервную копию кошелька
+</aside>
+
