@@ -1,14 +1,12 @@
-# Introduction PostCoin API
+# Информация о PostCoin API
 
 [![Release](https://img.shields.io/github/release/PostCoinCore/postcoin.svg)](https://github.com/PostCoinCore/postcoin/releases/latest)
 
-Welcome to the official documentation PostCoin API! You can use our API to access PostCoin API BlockChain.
+Добро пожаловать в официальную документацию PostCoin API! Вы можете использовать API для доступа к PostCoin API BlockChain.
 
-We have language bindings in Shell, HTTP! 
-You can view code examples in the dark area to the right, 
-and you can switch the programming language of the examples with the tabs in the top right.
+Вы можете просмотреть код примеров и результаты выполнения справа в теиной области. 
 
-To connect to the api, use the link to your node: <code>http://127.0.0.1:<rpc_port></code>
+Для соединения с api используйте следующую ссылку: <code>http://127.0.0.1:<rpc_port></code>
 
 Список параметров, используемых в командной строке клиента, можно вывести используя команду PostCoind help
 
