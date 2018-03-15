@@ -266,3 +266,26 @@ account – привязать публичный ключ к указанном
 ВАЖНО: после регенерации необходимо создать новую резервную копию кошелька
 </aside>
 
+## listaccounts                 
+
+вывести все имена, зарегистрированные в клиенте
+
+`listaccounts [minconf=1]`
+
+## listaddressgroupings                  
+
+вывести все адреса, сгруппированные по зарегистрированным именам
+
+`listaddressgroupings`
+
+## listreceivedbyaccount                   
+
+суммы полученных средств сгрупированные по используемым именам
+
+`listreceivedbyaccount [minconf=1] [includeempty=false]`
+
+## listreceivedbyaddress                   
+
+суммы полученных средств сгрупированные по адресам
+
+`listreceivedbyaddress [minconf=1] [includeempty=false]`
