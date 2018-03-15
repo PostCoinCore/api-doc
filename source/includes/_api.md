@@ -440,3 +440,37 @@ account – привязать публичный ключ к указанном
 
 - detach – флаг, указывающий что отсоединиться от базы данных (true/false)
 
+## submitblock                    
+
+отправить сгенерированный блок в сеть
+
+`submitblock <hex data> [optional-params-obj]`
+
+## validateaddress                    
+
+проверить корректность адреса
+
+`validateaddress <PostCoinaddress>`
+
+## validatepubkey                    
+
+проверить публичный ключ
+
+`validatepubkey <PostCoinpubkey>`
+
+## verifymessage                    
+
+проверить подписанное сообщение
+
+`verifymessage <PostCoinaddress> <signature> <message>`
+
+## walletlock                    
+
+блокирует клиента (удаляет из памяти клиента пароль)
+
+`walletlock`
+
+<aside class="info">
+ВАЖНО: для разблокировки необходимо повторно вызывать команду walletpassphrase
+</aside>
+
