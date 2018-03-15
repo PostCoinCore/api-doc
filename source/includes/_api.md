@@ -390,3 +390,12 @@ account – привязать публичный ключ к указанном
 отправить подготовленную RAW (HEX) транзакцию в сеть
 
 `sendrawtransaction <hex string>`
+
+## sendtoaddress                    
+
+отправить средства (адреса выбираются клиентом) на указанный адрес
+
+`sendtoaddress <PostCoinaddress> <amount> [comment] [comment-to]`
+
+- tnovacoinaddress – адрес получателя 
+- amount – отправляемая сумма ВАЖНО: значение суммы дробное и округляется до 0.0001
