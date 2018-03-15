@@ -89,3 +89,17 @@
 `getbalance [account] [minconf=1`
 
 - account – фильтр по адресу. 
+
+## getbestblockhash      
+
+хэш последнего найденного блока в сети
+
+`getbestblockhash `
+
+## getblock      
+
+вывести данные о блоке с указанным хэшем
+
+`getblock <hash> [txinfo]`
+
+- txinfo – флаг, указывающий что вместо хэша транзакции необходимо вывести детализированную информацию, принимает значения true или false.
