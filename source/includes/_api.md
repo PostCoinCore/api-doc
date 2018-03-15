@@ -384,3 +384,9 @@ account – привязать публичный ключ к указанном
 <aside class="info">
 ВАЖНО: значения сумм дробные двойной точности
 </aside>
+
+## sendrawtransaction                    
+
+отправить подготовленную RAW (HEX) транзакцию в сеть
+
+`sendrawtransaction <hex string>`
