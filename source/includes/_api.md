@@ -195,3 +195,10 @@ account – привязать публичный ключ к указанном
 `getrawtransaction <txid> [verbose=0]`
 
 - verbose – определяет как её выводить: 0 для вывода в RAW (HEX) формате (по-умолчанию) 1 для вывода в JSON формате
+
+## getreceivedbyaccount         
+
+сумма полученных средств, поступивших на адреса, привязанные к указанному имени.
+
+`getreceivedbyaccount <account> [minconf=1]`
+
