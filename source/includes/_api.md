@@ -39,3 +39,33 @@
 - n – номер выхода транзакции {"txid":txid,"vout":n},... 
 
 используется для ручной подборки транзакций, которые необходимо израсходовать в создаваемой транзакции.
+
+## decoderawtransaction 
+
+преобразование формата транзакции из RAW (HEX) в JSON представление
+
+`decoderawtransaction <hex string>`
+
+## decodescript 
+
+преобразование формата multiSig скрипта из RAW (HEX) в JSON представление
+
+`decodescript <hex string>`
+
+## dumpprivkey  
+
+вывести приватный ключ указанного адреса (при его наличии в wallet.dat)
+
+`dumpprivkey <PostCoinaddress>`
+
+## dumpwallet   
+
+выгрузить адреса и их ключи в отдельный файл
+
+`dumpwallet <filename>`
+
+## getaccount    
+
+получить имя записи, установленного для указанного адреса
+
+`getaccount <PostCoinaddress>`
