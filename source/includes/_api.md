@@ -140,4 +140,10 @@
 
 вывести количество активных подключений клиента в сети
 
-`getconnectioncount `
+`getconnectioncount`
+
+## getdifficulty   
+
+вывести данные о текущей сложности сети
+
+`getdifficulty `
