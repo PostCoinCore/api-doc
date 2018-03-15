@@ -198,7 +198,13 @@ account – привязать публичный ключ к указанном
 
 ## getreceivedbyaccount         
 
-сумма полученных средств, поступивших на адреса, привязанные к указанному имени.
+сумма полученных средств, поступивших на адреса, привязанные к указанному имени
 
 `getreceivedbyaccount <account> [minconf=1]`
+
+## getreceivedbyaddress          
+
+сумма полученных средств, поступивших на указанный адрес
+
+`getreceivedbyaddress <PostCoinaddress> [minconf=1]`
 
