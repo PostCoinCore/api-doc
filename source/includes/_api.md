@@ -1,6 +1,6 @@
 # API
 
-## addmultisigaddress
+## add multisig address
 
 создание адреса с несколькими подписями с добавлением в клиент
 
@@ -9,13 +9,13 @@
 - *nrequired* – минимальное количество подписей, необходимых для подтверждения транзакции с адреса 
 - *key* – публичный ключ адреса, участвующего в подписи исходящих транзакций.
 
-## addredeemscript 
+## add redeem script 
 
 добавление адреса с несколькими подписями путём добавления его скрипта.
 
 `addredeemscript <redeemScript> [account]`
 
-## backupwallet  
+## backup wallet  
 
 создание резервной копии wallet.dat 
 
@@ -23,13 +23,13 @@
 
 - *destination* – путь сохранения копии
 
-## checkwallet  
+## check wallet  
 
 проверка целостности данных клиента. 
 
 `checkwallet`
 
-## createrawtransaction  
+## create raw transaction  
 
 создание исходящей транзакции, готовой для отправки в сеть (RAW формат) 
 
@@ -40,37 +40,37 @@
 
 используется для ручной подборки транзакций, которые необходимо израсходовать в создаваемой транзакции.
 
-## decoderawtransaction 
+## decode raw transaction 
 
 преобразование формата транзакции из RAW (HEX) в JSON представление
 
 `decoderawtransaction <hex string>`
 
-## decodescript 
+## decode script 
 
 преобразование формата multiSig скрипта из RAW (HEX) в JSON представление
 
 `decodescript <hex string>`
 
-## dumpprivkey  
+## dump priv key  
 
 вывести приватный ключ указанного адреса (при его наличии в wallet.dat)
 
 `dumpprivkey <PostCoinaddress>`
 
-## dumpwallet   
+## dump wallet   
 
 выгрузить адреса и их ключи в отдельный файл
 
 `dumpwallet <filename>`
 
-## getaccount    
+## get account    
 
 получить имя записи, установленного для указанного адреса
 
 `getaccount <PostCoinaddress>`
 
-## getaccountaddress     
+## get account address     
 
 получить адрес, идентифицируемый указанным именем
 
