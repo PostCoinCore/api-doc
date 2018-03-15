@@ -6,23 +6,16 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - http
 
 toc_footers:
-  - <a href='https://smartholdem.io'>SmartHoldem</a>
-  - <a href='https://blockexplorer.smartholdem.io'>BlockExplorer</a>
-  - <a href='https://community.smartholdem.io'>Community</a>
-  - <a href='https://github.com/smartholdem/api-doc'>GitHub Docs API</a>
+  - <a href='https://postcoin.top'>PostCoin</a>
+  - <a href='https://bitcexplorer.top'>BlockExplorer</a>
+  - <a href='https://forum.postcoin.top'>Community</a>
+  - <a href='https://github.com/PostCoinCore/postcoin-api'>GitHub API</a>
 
 includes:
   - introduction
   - accounts
   - blocks
   - transactions
-  - delegate
-  - loader
-  - peer
-  - transport
-  - rpclib
-  - errors
-  - models
 
 search: true
 ---
