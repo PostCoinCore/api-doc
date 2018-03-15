@@ -208,3 +208,9 @@ account – привязать публичный ключ к указанном
 
 `getreceivedbyaddress <PostCoinaddress> [minconf=1]`
 
+## getstakinginfo          
+
+Возвращает объект, содержащий информацию о stake
+
+`getstakinginfo`
+
