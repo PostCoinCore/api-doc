@@ -405,3 +405,29 @@ account – привязать публичный ключ к указанном
 установить имя для адреса
 
 `setaccount <PostCoinaddress> <account>`
+
+## settxfee                    
+
+указать минимальную комиссию
+
+`settxfee <amount>`
+
+<aside class="info">
+ВАЖНО: значение дробное и округляется до 0.001
+</aside>
+
+## signmessage                    
+
+отправить сообщение на адрес
+
+`signmessage <PostCoinaddress> <message>`
+
+## signrawtransaction                    
+
+подписать сгенерённую транзакцию
+
+`signrawtransaction <hex string> [{"txid":txid,"vout":n,"scriptPubKey":hex},...] [<privatekey1>,...] [sighashtype="ALL"]`
+
+<aside class="info">
+ВАЖНО: необзательные аргументы могут быть использованы для создания транзакции для клиентов, находящися вне сети по известным их данным
+</aside>
