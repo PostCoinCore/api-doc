@@ -320,4 +320,14 @@ account – привязать публичный ключ к указанном
 
 `makekeypair [prefix]`
 
-- prefix – предустановление префикса публичного ключа 
+- prefix – предустановление префикса публичного ключа
+
+## move                    
+
+перенести средства с одного имени на другое 
+
+`move <fromaccount> <toaccount> <amount> [minconf=1] [comment]`
+
+- fromaccount – откуда переносить 
+- toaccount – куда переносить 
+- amount – сколько переносить
