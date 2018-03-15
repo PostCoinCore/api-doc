@@ -1,4 +1,4 @@
-# Introduction
+# Introduction PostCoin API
 
 [![Release](https://img.shields.io/github/release/PostCoinCore/postcoin.svg)](https://github.com/PostCoinCore/postcoin/releases/latest)
 
